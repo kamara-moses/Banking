@@ -1,4 +1,10 @@
 $backgroun: rgb(241, 153, 153);
 
+%centered {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
 
 
