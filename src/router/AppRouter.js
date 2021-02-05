@@ -12,5 +12,9 @@ const AppRouter = () => {
                 </Switch>
             </div>
         </BrowserRouter>
-    )
+    );
+};
+
+const mapStateToProps = (state) => {
+    
 }
