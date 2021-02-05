@@ -7,7 +7,9 @@ const AppRouter = () => {
     retunr (
         <BrowserRouter>
             <div className="container">
-
+                <Switch>
+                    
+                </Switch>
             </div>
         </BrowserRouter>
     )
