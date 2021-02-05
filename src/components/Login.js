@@ -1,5 +1,6 @@
+import { divide } from "lodash";
 import React from "react";
 
-comst Login = () => {
-    
-}
+const Login = () => {
+    return <div>Login Page</div>
+};
