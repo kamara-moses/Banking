@@ -11,5 +11,7 @@ import reactDom from 'react-dom';
 const rootElement = document.getElementById("root");
 
 reactDom.render(
-  
+  <Provider>
+    
+  </Provider>
 )
