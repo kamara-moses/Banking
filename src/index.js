@@ -13,5 +13,6 @@ const rootElement = document.getElementById("root");
 reactDom.render(
   <Provider store={store}>
     <AppRouter />
-  </Provider>
-)
+  </Provider>,
+  rootElement
+);
