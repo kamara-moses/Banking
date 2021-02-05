@@ -124,3 +124,9 @@ btn {
     text-align: center;
 }
 
+button,
+input[type='button'],
+input[type='submit'],
+.btn {
+  font-size: 1.6rem;
+}
