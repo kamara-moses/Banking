@@ -220,3 +220,16 @@ input[type='submit'],
       box-shadow: none;
     }
 }
+
+.page-item {
+    @extend %pagination;
+    &.active {
+      background-color: #494961;
+      .page-link {
+        @extend %active-pagination;
+      }
+    }
+    .page-link {
+      @extend %active-pagination;
+    }
+}
