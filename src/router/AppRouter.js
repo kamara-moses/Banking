@@ -5,6 +5,7 @@ import Login from "../components/Login";
 
 const AppRouter = () => {
     retunr (
-        
+        <BrowserRouter>
+        </BrowserRouter>
     )
 }
