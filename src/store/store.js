@@ -1,1 +1,1 @@
-import { createStore }
+import { createStore, combineReducers }
