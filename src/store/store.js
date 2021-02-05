@@ -1,1 +1,1 @@
-import { createStore, combineReducers, applyMiddleware }
+import { createStore, combineReducers, applyMiddleware, compose } from "redux";
