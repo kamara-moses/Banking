@@ -8,4 +8,5 @@ const store = createStore(
     combineReducers({
         auth: authReducer
     }),
-)
+    composeEnhancers(applyMiddleware(thunk))
+);
