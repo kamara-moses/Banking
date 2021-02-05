@@ -11,7 +11,7 @@ import reactDom from 'react-dom';
 const rootElement = document.getElementById("root");
 
 reactDom.render(
-  <Provider>
-    
+  <Provider store={store}>
+    <AppRouter />
   </Provider>
 )
