@@ -1,1 +1,1 @@
-import { createStore, combineReducers }
+import { createStore, combineReducers, applyMiddleware }
