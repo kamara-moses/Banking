@@ -208,4 +208,15 @@ input[type='submit'],
 
 %pagination {
     background-color: #d9c2ac;
-  }
+}
+
+%active-pagination {
+    background-color: inherit;
+    border-color: inherit;
+    color: #fff;
+    outline: none;
+  
+    &:focus {
+      box-shadow: none;
+    }
+}
