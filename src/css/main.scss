@@ -245,3 +245,49 @@ input[type='submit'],
       color: #000;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .action-items {
+      flex-direction: column;
+    }
+  
+    .login-form {
+      width: 100%;
+    }
+  
+    header {
+      .links {
+        .link:link,
+        .link:visited {
+          display: block;
+        }
+  
+        .link:hover,
+        .link:active {
+          border-bottom: 2px solid transparent;
+        }
+      }
+    }
+  
+    .account {
+      flex-direction: column;
+      text-align: left;
+  
+      .account-btn {
+        margin: 1rem;
+        padding: 3px 8px;
+      }
+    }
+  
+    .edit-account {
+      display: block;
+      float: none;
+    }
+  
+    .account-form {
+      .label-value {
+        display: block;
+        margin-left: 0;
+      }
+    }
+  }
