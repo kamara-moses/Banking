@@ -146,3 +146,16 @@ input[type='submit'],
       border-radius: 5px;
     }
 }
+
+.account {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  
+    .account-btn {
+      margin: 1.6rem;
+      padding: 6px 12px;
+      letter-spacing: 1px;
+    }
+}
+  
