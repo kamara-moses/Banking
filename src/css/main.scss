@@ -97,3 +97,10 @@ btn {
 .loading {
     @extend %centered;
 }
+
+.error-msg {
+    color: #f21e08;
+    background: #fff0f0;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
