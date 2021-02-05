@@ -162,5 +162,11 @@ input[type='submit'],
 .label-value {
     margin-left: 1rem;
     word-break: break-all;
-  }
-  
+}
+
+.profile-form {
+    .label-value {
+      display: block;
+      margin-left: 0;
+    }
+}
