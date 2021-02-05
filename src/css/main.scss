@@ -73,5 +73,9 @@ header {
             border-bottom: 2px solid transparent;
             transition: all 0.3s;
         }
+    .link:hover,
+    .link:active {
+        border-bottom: 2px solid #fff;
+        }
     }
 }
