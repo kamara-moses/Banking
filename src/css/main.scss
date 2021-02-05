@@ -93,3 +93,7 @@ btn {
     font-weight: bold;
     box-shadow: 0 0 5px #000;
 }
+
+.loading {
+    @extend %centered;
+}
