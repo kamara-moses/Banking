@@ -9,6 +9,10 @@ class Login extends React.Component {
         password: "",
         errorMsg: ""
     };
+
+    handleLogin = (event)  => {
+        
+    }
 }
 
 export default Login;
