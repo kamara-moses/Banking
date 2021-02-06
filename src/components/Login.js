@@ -39,6 +39,10 @@ class Login extends React.Component {
             [name]: value
         });
     };
+
+    render() {
+        
+    }
 }
 
 export default Login;
