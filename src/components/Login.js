@@ -11,8 +11,26 @@ class Login extends React.Component {
     };
 
     handleLogin = (event)  => {
-        
-    }
+        event.preventDefault();
+        const { email, password } = this.state;
+        const fieldsToValidate = [{ email }, { password }];
+
+        const allFieldsEntered = validateFields(fieldsToValidate);
+        if (!allFieldsEntered) {
+            this.setState({
+                errorMsg: {
+                    signin_error: "Please enter all the fields."
+                }
+            });
+        } else {
+            this.setState({
+                errorMsg: {
+                    signin_error: ""
+                }
+            });
+            // login successful
+        }
+    };
 }
 
 export default Login;
