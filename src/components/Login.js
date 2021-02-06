@@ -31,6 +31,10 @@ class Login extends React.Component {
             // login successful
         }
     };
+
+    handleInputChange = (event) => {
+        
+    }
 }
 
 export default Login;
