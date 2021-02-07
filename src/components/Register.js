@@ -15,4 +15,8 @@ class Register extends React.Component {
         errorMsg: "",
         isSubmitted: false
     };
+
+    registerUser = (event) => {
+        
+    }
 }
