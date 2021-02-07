@@ -5,5 +5,14 @@ import { validateFields } from "../utils/common";
 import { Link } from "react-router-dom";
 
 class Register extends React.Component {
-
+    state = {
+        first_name: "",
+        last_name: "",
+        email: "",
+        password: "",
+        cpassword: "",
+        successMsg: "",
+        errorMsg: "",
+        isSubmitted: false
+    };
 }
