@@ -47,4 +47,8 @@ class Register extends React.Component {
             }
         }
     };
+
+    handleInputChange = (event) => {
+        
+    }
 }
