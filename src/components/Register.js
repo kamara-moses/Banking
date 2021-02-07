@@ -19,5 +19,13 @@ class Register extends React.Component {
     registerUser = (event) => {
         event.preventDefault();
         const { first_name, last_name, email, password, cpassword } = this.state;
+
+        const fieldToValidate = [
+            { first_name },
+            { last_name },
+            { email },
+            { password },
+            { cpassword }
+        ];
     }
 }
