@@ -27,5 +27,24 @@ class Register extends React.Component {
             { password },
             { cpassword }
         ];
-    }
+
+        const allFieldsEntered = validateFields(fieldToValidate);
+        if(!allFieldsEntered) {
+            this.setState({
+                errorMsg: {
+                    signup_error: "Please enter all the fields."
+                }
+            });
+        } else {
+            if (password !== cpassword) {
+                this.setState({
+                    errorMsg: {
+                        signup_error: "Password and confirm password does not match."
+                    }
+                });
+            } else {
+                this.setState({ isSubmitted: true });
+            }
+        }
+    };
 }
