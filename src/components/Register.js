@@ -56,6 +56,6 @@ class Register extends React.Component {
     };
 
     render() {
-        
+        const { errorMsg, successMsg, isSubmitted } = this.state;
     }
 }
