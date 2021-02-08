@@ -60,13 +60,13 @@ class Login extends React.Component {
                         </Form.Group>
                         <Form.Group controlled="password">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" name="password" palceholder="Enter password" onChange={this.handleInputChange} />
+                            <Form.Control type="password" name="password" placeholder="Enter password" onChange={this.handleInputChange} />
                         </Form.Group>
                         <div className="action-items">
                             <Button variant="primary" type="submit">
                                 Login
                             </Button>
-                            <Link to="/register" className="btn-secondary">
+                            <Link to="/register" className="btn btn-secondary">
                                 Create Account
                             </Link>
                         </div>
